@@ -1,3 +1,4 @@
+//adiciona pacientes
 var botaoAdicionar = document.querySelector("#adicionar-paciente");
 
 botaoAdicionar.addEventListener("click", function(event){
@@ -29,7 +30,5 @@ botaoAdicionar.addEventListener("click", function(event){
     var erro = document.querySelector("#mensagem-erros");
     erro.innerHTML = "";
 });
-
-
 
 
