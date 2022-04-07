@@ -151,3 +151,19 @@ button[disabled=disabled], button:disabled {
 	opacity: 0;
 	transition: 0.5s;
 }
+
+#filtra-tabela{
+	margin-bottom: 30px;
+	margin-top: 10px;
+	font-weight: bold;
+	padding-block: 5px;
+}
+
+label{
+	font-weight: bold;
+	color: black;
+}
+
+.desaparece {
+	display:none;
+}
