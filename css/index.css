@@ -148,8 +148,8 @@ button[disabled=disabled], button:disabled {
 }
 
 .esmaecer {
+	transition: 3.5s;
 	opacity: 0;
-	transition: 0.5s;
 }
 
 #filtra-tabela{
@@ -166,4 +166,9 @@ label{
 
 .desaparece {
 	display:none;
+}
+
+#busca-pacientes{
+	padding-right: 30px;
+	width:auto;
 }

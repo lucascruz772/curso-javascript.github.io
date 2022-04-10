@@ -86,3 +86,15 @@ function exibeMensagensdeErro(erros){
   });
 }
 
+//adicionar paciente na tabela
+function addPaciente(paciente){
+  var pacienteTr = montaTr(paciente);
+  var tabela = document.querySelector("#tabela-pacientes");
+  tabela.appendChild(pacienteTr);
+  
+} 
+
+function ganharEsmeacer(){
+  var certoAjax = document.querySelector("#certo-ajax");
+  certoAjax.classList.add("esmaecer");
+}

@@ -1,6 +1,6 @@
 //alterar o titulo principal
 let titulo = document.querySelector(".titulo");
-titulo.textContent = "Lija Nutricionista";
+titulo.textContent = "Aparecida Nutri";
 
 //pegando o kg e altura dos pacientes
 let pacientes = document.querySelectorAll(".paciente");
